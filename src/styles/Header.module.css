@@ -101,6 +101,7 @@
     }
 
     .ulLinks {
+        display: none;
         flex-direction: column;
         position: absolute;
         top: 140px;
@@ -109,6 +110,7 @@
         align-items: flex-start;
         justify-content: center;
         border-radius: 5px;
+        z-index: 1000;
     }
 
     .ulLinks .link:first-child {
