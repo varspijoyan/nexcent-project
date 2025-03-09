@@ -1,0 +1,37 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* root variables */
+:root {
+    /* font */
+    --font: "Inter", sans-serif;
+    /* primary color */
+    --primary: #43a046;
+    /* secondary color */
+    --secondary: #263238;
+    /* neutral colors */
+    --neutral-dgrey-color: #4d4d4d;
+    --neutral-grey-color: #717171;
+    --neutral-lgrey-color: #89938e;
+    --neutral-silver-color: #f5f7fa;
+    /* green color shade */
+    --green-color-shade: #388e3b;
+    /* green tint colors */
+    --green-color-tint-1: #66bb69;
+    --green-color-tint-2: #c8e6c9;
+}
+
+/* default styles for all tags */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body styles */ 
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font);
+    overflow-x: hidden;
+}
