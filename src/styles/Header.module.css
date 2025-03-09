@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.headerSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.logo {
+    cursor: pointer;
+    width: 130px;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.ulLinks {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.ulLinks .link {
+    list-style-type: none;
+}
+
+.ulLinks .link a {
+    text-decoration: none;
+    color: var(--neutral-dgrey-color);
+    font-weight: 500;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.ulLinks .link a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    background-color: var(--primary);
+    transition: width 0.3s linear;
+}
+
+.ulLinks .link a:hover::after {
+    width: 100%;
+    animation: animate-link 0.3s linear;
+}
+
+@keyframes animate-link {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.btn {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 550;
+    color: white;
+    background-color: var(--primary);
+    cursor: pointer;
+    transition: linear 0.5s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
