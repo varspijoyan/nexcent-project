@@ -34,4 +34,5 @@ body {
     flex-direction: column;
     font-family: var(--font);
     overflow-x: hidden;
+    color: var(--neutral-dgrey-color);
 }
