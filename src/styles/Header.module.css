@@ -86,3 +86,56 @@
 .btn:hover {
     opacity: 0.8;
 }
+
+.hamburgerReact {
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .hamburgerReact {
+        display: block;
+    }
+
+    .ulLinks.show {
+        display: flex;
+    }
+
+    .ulLinks {
+        flex-direction: column;
+        position: absolute;
+        top: 140px;
+        background-color: white;
+        width: 200px;
+        align-items: flex-start;
+        justify-content: center;
+        border-radius: 5px;
+    }
+
+    .ulLinks .link:first-child {
+        padding-top: 20px;
+    }
+
+    .ulLinks .link {
+        border-bottom: 1px solid rgb(196, 196, 196);
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .ulLinks .link:last-child {
+        border: none;
+    }
+
+    .ulLinks .link a {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .headerSection {
+        flex-direction: column;
+    }
+
+    .headerSection img {
+        margin-bottom: 20px;
+    }
+}
