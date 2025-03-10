@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 15em;
+    height: 45vh;
 }
 
 .textContainer {
@@ -79,4 +79,19 @@
     .services {
         flex-wrap: wrap;
     }
+}
+
+@media screen and (max-width: 410px) {
+    .serviceSection {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
+        height: 80vh;
+    }
+
+    .services {
+        padding-bottom: 30px;
+    }
+
+   
 }
