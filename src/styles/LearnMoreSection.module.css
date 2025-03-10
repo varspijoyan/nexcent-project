@@ -56,3 +56,9 @@
         padding-right: 50px;
     }
 }
+
+@media (pointer: coarse) {
+    .btn {
+        opacity: 1;
+    }
+}
