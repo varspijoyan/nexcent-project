@@ -92,6 +92,14 @@
     .services {
         padding-bottom: 30px;
     }
+}
 
-   
+@media screen and (max-width: 371px) {
+    .serviceSection {
+        height: 90vh;
+    }
+
+    .services {
+        margin-left: 50px;
+    }
 }
