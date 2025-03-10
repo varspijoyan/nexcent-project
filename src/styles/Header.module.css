@@ -142,3 +142,13 @@
         margin-bottom: 20px;
     }
 }
+
+@media (pointer: coarse) {
+    .ulLinks .link a:hover::after {
+       width: 0% !important;
+    }
+
+    .btn:hover {
+        opacity: 1 !important;
+    }
+}
