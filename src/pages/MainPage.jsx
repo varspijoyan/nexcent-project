@@ -1,4 +1,5 @@
 import ClientsSection from "../components/clients-section/ClientsSection";
+import CustomersSection from "../components/customers-section/CustomersSection";
 import HowToSection from "../components/howto-section/HowToSection";
 import LearnMoreSection from "../components/learn-more-section/LearnMoreSection";
 import MainSection from "../components/main-section/MainSection";
@@ -14,6 +15,7 @@ export default function MainPage() {
             <LearnMoreSection />
             <ServiceSection />
             <HowToSection />
+            <CustomersSection />
         </>
     )
 }
