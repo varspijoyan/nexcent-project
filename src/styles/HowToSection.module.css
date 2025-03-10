@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.howToSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 80px;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.textContainer {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.howToSection > img {
+    width: 350px;
+}
+
+.btn {
+    background-color: var(--primary);
+    color: white;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: linear 0.4s;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+@media (pointer: coarse) {
+    .btn:hover {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .textContainer {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
