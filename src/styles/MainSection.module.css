@@ -88,3 +88,9 @@
         padding-bottom: 1110px;
     }
 }
+
+@media (pointer: coarse) {
+    .btn:hover {
+        opacity: 1;
+    }   
+}
